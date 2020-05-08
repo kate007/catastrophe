@@ -1,1 +1,66 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@600;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin:0px !important;
+    padding:0px !important;
+   
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size:2rem;
+    color:white;
+    @media (min-width: 768px) {
+        font-size:3.5rem !important;
+     }
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Fjalla One', sans-serif;
+    color: #130E48;
+}
+
+
+
+
+
+.btn-primary {
+    background-color: #F55E43;
+    padding:1rem 2rem;
+    border:none !important;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1rem;
+    @media (min-width: 768px) {
+        font-size: 1.5rem !important;
+        padding: 1rem 2rem !important;
+     } 
+}
+
+
+.font-orange1 {
+    color: #F55E43 !important
+}
+
+
+.font-dark-blue {
+    color: #130E48 !important;
+}
+
+.font-black {
+    color:black !important;
+}
+
+.blue-lighter {
+    color:#7D73BE;
+}
+

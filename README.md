@@ -1,3 +1,5 @@
+# To Run
+npm install, then npm serve, then open http://localhost:4200/ 
 # Catastrophe
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
